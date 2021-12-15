@@ -1,0 +1,18 @@
+//?Когда вы захотите использовать z-index, назовите его так же, как ваш класс, и добавьте в ваш файл переменных/настроек, как ниже
+
+@function z($name) {
+  @if index($z-indexes, $name) {
+    @return (length($z-indexes) - index($z-indexes, $name)) + 1;
+  } @else {
+    @warn 'There is no item "#{$name}" in this list; choose one of: #{$z-indexes}';
+    @return null;
+  }
+}
+
+$z-indexes: ("site-header");
+
+// .site-header {
+
+//   z-index: z('site-header');
+
+// }

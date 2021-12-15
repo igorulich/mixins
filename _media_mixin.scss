@@ -1,0 +1,38 @@
+/media_mixin.scss использывание этого мексина значительно сокращает время при адаптиве
+//.div {
+//   @include _1170 {
+//       @content;
+//   }
+//}
+
+@mixin _1200 {
+  @media (max-width: 1200px) {
+    // @include _1200 {}
+  }
+}
+@mixin _992 {
+  @media (max-width: 992px) {
+    // @include _992 {}
+  }
+}
+@mixin _768 {
+  @media (max-width: 768px) {
+    // @include _768 {}
+  }
+}
+@mixin _480 {
+  @media (max-width: 480px) {
+    // @include _480 {}
+  }
+}
+@mixin _320 {
+  @media (max-width: 320px) {
+    // @include _320 {}
+  }
+}
+
+@mixin pseudo($display: block, $pos: absolute, $content: "") {
+  content: $content;
+  display: $display;
+  position: $pos;
+}

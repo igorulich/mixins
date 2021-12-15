@@ -1,0 +1,7 @@
+//несколько контейнеров, которые будут гибким блоком, с действием обертывания и выравниванием дочерних элементов по центру (как по горизонтали, так и по вертикали).
+@mixin flex-container() {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

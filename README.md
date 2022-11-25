@@ -78,7 +78,7 @@ $nothing: null;
     @include flexible ();
     border: 1px solid gray;
   }
-  ```
+```
   ### Тепер щоразу після застосування класу .centered-elements до HTML-елементу, останній буде перетворено на Flexbox.
 
 # Міксини:

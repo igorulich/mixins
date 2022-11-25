@@ -53,7 +53,7 @@ $nothing: null;
 ## У SCSS використовується директива &.
 
 ```
-#p {
+p {
   color: black;
   a {
     font-weight: bold;

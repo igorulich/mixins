@@ -48,7 +48,7 @@
 > 
  ### Приклади:
 - [
-
+```
   @mixin reset-list {
   margin: 0;
   padding: 0;
@@ -70,4 +70,5 @@
 nav ul {
   @include horizontal-list;
 }
+  ```
 ]

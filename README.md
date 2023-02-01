@@ -13,7 +13,7 @@
 > 
   ### Приклади:
 >> **обнуление стилей button**
-(о_
+```
  @mixin btnreset() {
   background-color: transparent;
   border: none;
@@ -24,4 +24,4 @@
     outline: none;
   }
 } 
-(о_
+```

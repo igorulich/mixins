@@ -31,7 +31,7 @@
 --- 
   **SCSS**  **SASS**
   
-  ```@mixin reset-list {
+  <pre>@mixin reset-list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -48,8 +48,7 @@
 }
 nav ul {
   @include horizontal-list;
-}
-  ```
+}</pre>
 <pre><span class="pl-k">var</span> <span class="pl-s1">sass</span> <span class="pl-c1">=</span> <span class="pl-en">require</span><span class="pl-kos">(</span><span class="pl-s">'node-sass'</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
 <span class="pl-s1">sass</span><span class="pl-kos">.</span><span class="pl-en">render</span><span class="pl-kos">(</span><span class="pl-kos">{</span>
   <span class="pl-c1">file</span>: <span class="pl-s1">scss_filename</span><span class="pl-kos">,</span>

@@ -28,7 +28,8 @@
   + @include <name>(<arguments...>), разом із назвою міксину.
 > 
  ### Приклади:
-(The_ @mixin reset-list {
+```
+  @mixin reset-list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -49,4 +50,4 @@
 nav ul {
   @include horizontal-list;
 }
-
+```

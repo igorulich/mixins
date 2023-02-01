@@ -46,7 +46,7 @@
 > 
  ### Приклади:
 ```
-  **scss** **sass**
+  ** scss** ** sass**
   @mixin reset-list {
   margin: 0;
   padding: 0;

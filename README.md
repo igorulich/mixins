@@ -31,7 +31,7 @@
 --- 
   **SCSS**  **SASS**
   
-  <pre><code><span class="nf>@mixin</span> reset-list {
+  <pre><code>@mixin reset-list {
   margin: 0;
   padding: 0;
   list-style: none;

@@ -26,7 +26,7 @@
   >> пишеться*
   + @include <name>або
   + @include <name>(<arguments...>), разом із назвою міксину.
-> 
+>>> 
  ### Приклади:
   
 @mixin reset-list {

@@ -6,7 +6,7 @@
 + @mixin <name> { ... } або 
 + @mixin name(<arguments...>) { ... } ,
   ### Приклади:
-
+---
 ```
  @mixin btnreset() {
   background-color: transparent;
@@ -26,9 +26,9 @@
   >> пишеться*
   + @include <name>або
   + @include <name>(<arguments...>), разом із назвою міксину.
----
+
  ### Приклади:
-  
+---  
 @mixin reset-list {
   margin: 0;
   padding: 0;

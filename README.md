@@ -13,3 +13,15 @@
 > 
   ### Приклади:
 >> **обнуление стилей button**
+(о_
+ @mixin btnreset() {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  button,
+  button:active,
+  button:focus {
+    outline: none;
+  }
+} 
+(о_

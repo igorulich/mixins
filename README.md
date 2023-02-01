@@ -20,17 +20,21 @@
 } 
 ```  
   ```
-  @mixin connectionFonts($font-family, $url, $weight) {
-	@font-face {
-		font-family: "#{$font-family}";
-		src: url("../fonts/#{$url}.woff2") format("woff2"),
-			url("../#{$url}.woff") format("woff");
-		font-weight: #{$weight};
-		font-display: swap;
-		font-style: normal;
-		font-weight: normal;
-	}
+ @mixin gen-fonts {
+  @each $font in $fonts-list{
+    @font-face {
+      font-family: '#{$font}';
+      src: url('../fonts/#{$font}.eot'); /* IE9 Compat Modes */
+      src: url('../fonts/#{$font}.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      url('../fonts/#{$font}.woff2') format('woff2'), /* Super Modern Browsers */
+      url('../fonts/#{$font}.woff') format('woff'), /* Pretty Modern Browsers */
+      url('../fonts/#{$font}.ttf')  format('truetype'), /* Safari, Android, iOS */
+      url('../fonts/#{$font}.svg#svgFontName') format('svg'); /* Legacy iOS */
+      font-style: normal;
+    }
+  }
 }
+@include gen-fonts();
   ```
 >> *Ім’я міксину може бути будь-яким ідентифікатором Sass, і воно може містити будь -який оператор , крім операторів верхнього рівня . Їх можна використовувати для інкапсуляції стилів, які можна вставити в одне правило стилю ; вони можуть містити власні правила стилю, які можуть бути вкладені в інші правила або включені на верхній рівень таблиці стилів; або вони можуть просто служити для зміни змінних.*
 >*Міксини включаються до поточного контексту за допомогою @includeправила at, яке

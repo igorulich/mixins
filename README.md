@@ -29,6 +29,7 @@
 
  ### Приклади:
 --- 
+  **SCSS**
   ```
   @mixin reset-list {
   margin: 0;

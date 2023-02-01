@@ -47,7 +47,7 @@
       right: 2em;
     }
   }
-}``
+}
 
 nav ul {
   @include horizontal-list;

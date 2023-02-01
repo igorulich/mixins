@@ -36,10 +36,8 @@
   padding: 0;
   list-style: none;
 }
-
 @mixin horizontal-list {
   @include reset-list;
-
   li {
     display: inline-block;
     margin: {
@@ -48,7 +46,6 @@
     }
   }
 }
-
 nav ul {
   @include horizontal-list;
 }

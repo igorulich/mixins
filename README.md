@@ -29,7 +29,7 @@
 > 
  ### Приклади:
   
- @mixin reset-list {
+`` @mixin reset-list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -45,7 +45,7 @@
       right: 2em;
     }
   }
-}
+}``
 
 nav ul {
   @include horizontal-list;

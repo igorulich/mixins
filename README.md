@@ -6,7 +6,7 @@
 + @mixin <name> { ... } або 
 + @mixin name(<arguments...>) { ... } ,
   ### Приклади:
->> **обнуление стилей button**
+
 ```
  @mixin btnreset() {
   background-color: transparent;

@@ -51,7 +51,7 @@
 
 nav ul {
   @include horizontal-list;
-}</code><code>nav ul {
+}</code></pre><pre><code>nav ul {
   margin: 0;
   padding: 0;
   list-style: none;

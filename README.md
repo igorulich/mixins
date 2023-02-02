@@ -29,7 +29,7 @@
 
  ### Приклади:
 --- 
- <pre></span class="nl">SACSS</span></pre>
+ <pre style="font-style: italic;"></span>SACSS</span></pre>
 <pre>@mixin reset-list {
   margin: 0;
   padding: 0;

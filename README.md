@@ -29,20 +29,8 @@
 
  ### Приклади:
 --- 
-<pre><code><div class=" container-fluid">
-  <div class="d-flex row">
-    <div class="col">
-      Column
-    </div>
-    <div class="col">
-      Column
-    </div>
-    <div class="col">
-      Column
-    </div>
-  </div>
-</div></code></pre>
-  \*літеральні зірочки\*
+<pre><tbody></tbody></pre>
+
 <pre>@mixin reset-list {
   margin: 0;
   padding: 0;

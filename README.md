@@ -52,4 +52,4 @@ nav ul {
   @include horizontal-list;
 }</pre>
   
-  <pre><span>SCSS SASS</span></pre>
+  <pre><span>SCSS SASS</span></pre> <pre><span>CSS</span></pre>

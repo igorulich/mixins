@@ -29,7 +29,7 @@
 
  ### Приклади:
 --- 
-  <span>***SCSS***</span>      <span>***SASS***</span>
+      <p><abbr title="HyperText Markup Language" class="initialism">SCSS</abbr></p>
   
 <pre>@mixin reset-list {
   margin: 0;

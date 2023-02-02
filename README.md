@@ -103,9 +103,7 @@ nav ul li {
 </head>
 
 <body >
-<div class="badge bg-primary text-wrap" style="width:100%;">
-<p class="text-uppercase">Testing</p>
-</div>
+
 </body>
 
 </html></pre>

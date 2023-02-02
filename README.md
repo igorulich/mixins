@@ -29,8 +29,8 @@
 
  ### Приклади:
 --- 
-<pre><div class="container-fluid">
-  <div class="row border border-primary">
+<pre><div class="container-fluid flex">
+  <div class="row">
     <div class=" col-md-4">
       Column
     </div>

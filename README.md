@@ -31,7 +31,7 @@
 --- 
 <pre><div class="container-fluid">
   <div class="row">
-    <div class="col-md-4 bg-info">
+    <div class=" bg-info">
       Column
     </div>
     <div class="col-md-4">

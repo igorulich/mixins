@@ -29,7 +29,7 @@
 
  ### Приклади:
 --- 
-<pre><code class="container-fluid">
+<pre><code class="d-flex container-fluid">
 <span >***SCSS***</span>
 <span>***SASS***</span>
 </code></pre>

@@ -29,7 +29,10 @@
 
  ### Приклади:
 --- 
-<pre></pre>
+<pre><code class="container-fluid">
+<span >***SCSS***</span>
+<span>***SASS***</span>
+</code></pre>
   
 <pre>@mixin reset-list {
   margin: 0;

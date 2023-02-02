@@ -84,7 +84,7 @@ nav ul li {
   @include rtl(float, left, right);
 }</pre>
 <span>***CSS***</span>
-  - <pre>.sidebar {
+  <pre>.sidebar {
   float: left;
 }
 [dir=rtl] .sidebar {

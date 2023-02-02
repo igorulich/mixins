@@ -29,8 +29,8 @@
 
  ### Приклади:
 --- 
-<pre><div class="d-flex container">
-  <div class="row">
+<pre><div class=" container-fluid">
+  <div class="d-flex row">
     <div class="col">
       Column
     </div>

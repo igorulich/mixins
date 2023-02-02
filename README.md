@@ -36,4 +36,4 @@ flex-direction: row;
 flex-wrap: wrap;
 }</pre>
   
-  <pre><span style="width: 100%,text-align: center;">@include flex-container()</span></pre>
+  <pre><span style="width: 100%,text-align: center, font-size: 19px,color:black;">@include flex-container()</span></pre>

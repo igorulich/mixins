@@ -36,4 +36,4 @@ flex-direction: row;
 flex-wrap: wrap;
 }</pre>
   
-  <pre><span><body bgcolor="#00ccff">@include flex-container()</span></pre>
+  <pre><span><body bgcolor="#00ccff">@include flex-container()</body></span></pre>

@@ -30,8 +30,8 @@
  ### Приклади:
 --- 
  <code>
-   <body bgcolor="ff0000" text="ffff00">
-     @mixin flex-container() {
+   
+     <font color="ff0000">@mixin</font> flex-container() {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

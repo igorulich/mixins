@@ -31,5 +31,10 @@
 --- 
  <code>
    <body bgcolor="ff0000" text="ffff00">
+     @mixin flex-container() {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
    </body>
 </code>

@@ -30,10 +30,10 @@
  ### Приклади:
 --- 
 
-<pre>@mixin flex-container() {
+<pre style="width: 100%,text-align: center, font-size: 19px,color:black;">@mixin flex-container() {
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 }</pre>
   
-  <pre><span style="width: 100%,text-align: center, font-size: 19px,color:black;">@include flex-container()</span></pre>
+  <pre><span>@include flex-container()</span></pre>

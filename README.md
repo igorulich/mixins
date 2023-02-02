@@ -29,11 +29,11 @@
 
  ### Приклади:
 --- 
- <code>
+
 <pre>@mixin flex-container() {
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 }</pre>
   
-</code>
+

@@ -36,4 +36,4 @@ flex-direction: row;
 flex-wrap: wrap;
 }</pre>
   
-  <pre><span class="nf">@include flex-container()</span></pre>
+  <pre><span>@include flex-container()</span></pre>

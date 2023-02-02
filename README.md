@@ -29,7 +29,7 @@
 
  ### Приклади:
 --- 
-<pre><tbody></tbody></pre>
+<pre><tbodyclass="table-600" cellpadding="0" cellspacing="0" width="600" align="center"></tbody></pre>
 
 <pre>@mixin reset-list {
   margin: 0;

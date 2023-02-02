@@ -29,7 +29,7 @@
 
  ### Приклади:
 --- 
-<pre><div class="container">
+<pre><div class="container-fluid">
   <div class="row">
     <div class="col">
       Column

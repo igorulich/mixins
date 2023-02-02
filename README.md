@@ -42,7 +42,7 @@
     </div>
   </div>
 </div></code></pre>
-  
+  \*літеральні зірочки\*
 <pre>@mixin reset-list {
   margin: 0;
   padding: 0;

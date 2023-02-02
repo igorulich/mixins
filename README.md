@@ -32,13 +32,13 @@
 <pre><div class="class="d-flex p-2 bd-highlight"">
   <div class="row">
     <div class=" d-flex">
-      1Column
+      1-Column
     </div>
     <div class="d-flex">
-      2Column
+      2-Column
     </div>
     <div class="d-flex">
-      3Column
+      3-Column
     </div>
   </div>
 </div></pre>

@@ -41,7 +41,7 @@
       Column
     </div>
   </div>
-</div>/pre>
+</div></pre>
   
 <pre>@mixin reset-list {
   margin: 0;

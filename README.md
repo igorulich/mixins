@@ -29,7 +29,7 @@
 
  ### Приклади:
 --- 
-<pre><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -62,7 +62,7 @@
  
 </body>
 
-</html></pre>
+</html>
 
 <pre>@mixin reset-list {
   margin: 0;

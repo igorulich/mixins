@@ -29,25 +29,6 @@
 
  ### Приклади:
 --- 
- <code><span class="k">@mixin</span> <span class="nf">reset-list</span> <span class="p">{</span>
-  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
-  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
-  <span class="nl">list-style</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
-<span class="p">}</span><font></font>
-<font></font>
-<span class="k">@mixin</span> <span class="nf">horizontal-list</span> <span class="p">{</span>
-  <span class="k">@include</span> <span class="nd">reset-list</span><span class="p">;</span><font></font>
-<font></font>
-  <span class="nt">li</span> <span class="p">{</span>
-    <span class="nl">display</span><span class="p">:</span> <span class="n">inline-block</span><span class="p">;</span>
-    <span class="nl">margin</span><span class="p">:</span> <span class="p">{</span>
-      <span class="nl">left</span><span class="p">:</span> <span class="m">-2px</span><span class="p">;</span>
-      <span class="nl">right</span><span class="p">:</span> <span class="m">2em</span><span class="p">;</span>
-    <span class="p">}</span>
-  <span class="p">}</span>
-<span class="p">}</span><font></font>
-<font></font>
-<span class="nt">nav</span> <span class="nt">ul</span> <span class="p">{</span>
-  <span class="k">@include</span> <span class="nd">horizontal-list</span><span class="p">;</span>
-<span class="p">}</span>
+ <code>
+   <body bgcolor="ff0000" text="ffff00">
 </code>

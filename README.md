@@ -30,8 +30,8 @@
  ### Приклади:
 --- 
 <pre><div class="container-fluid">
-  <div class="row">
-    <div class=" bg-info">
+  <div class="row border border-primary">
+    <div class=" col-md-4">
       Column
     </div>
     <div class="col-md-4">

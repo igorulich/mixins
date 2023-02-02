@@ -8,7 +8,7 @@
   ### Приклади:
 ---
 <pre>
- @mixin **btnreset**() {
+ @mixin btnreset() {
   background-color: transparent;
   border: none;
   cursor: pointer;

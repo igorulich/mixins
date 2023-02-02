@@ -102,8 +102,10 @@ nav ul li {
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
-<body>
-
+<body >
+<div class="badge bg-primary text-wrap" style="width:100%;">
+<p class="text-uppercase">Testing</p>
+</div>
 </body>
 
 </html></code>

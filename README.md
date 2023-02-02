@@ -29,7 +29,7 @@
 
  ### Приклади:
 --- 
-  <code><pre><span><font style="vertical-align: inherit;"><abbr title>SCSS</abbr></font></span><span><font style="text-align: center;">SASS</font></span></pre></code>
+ <pre><span><font style="vertical-align: inherit;"><abbr title>SCSS</abbr></font></span><span><font style="text-align: center;">SASS</font></span></pre>
 <pre>@mixin reset-list {
   margin: 0;
   padding: 0;

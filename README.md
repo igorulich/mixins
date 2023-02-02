@@ -29,7 +29,7 @@
 
  ### Приклади:
 --- 
- <dfn title="SCSS"></dfn>
+ <pre>SCSS</pre>
   
 <pre>@mixin reset-list {
   margin: 0;

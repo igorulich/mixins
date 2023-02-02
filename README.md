@@ -29,7 +29,7 @@
 
  ### Приклади:
 --- 
-<pre><div class=" container-fluid">
+<pre><code><div class=" container-fluid">
   <div class="d-flex row">
     <div class="col">
       Column
@@ -41,7 +41,7 @@
       Column
     </div>
   </div>
-</div></pre>
+</div></code></pre>
   
 <pre>@mixin reset-list {
   margin: 0;

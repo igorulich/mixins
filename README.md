@@ -91,7 +91,7 @@ nav ul li {
   float: right;
 }</pre>
 
-  <pre><!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -118,4 +118,4 @@ nav ul li {
 </div>
 </body>
 
-</html></pre>
+</html>

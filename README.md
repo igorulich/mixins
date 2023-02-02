@@ -29,7 +29,8 @@
 
  ### Приклади:
 --- 
-  <pre><span><SCSS</span></pre>
+ <pre><span>SCSS</span></pre>
+  
 <pre>@mixin reset-list {
   margin: 0;
   padding: 0;

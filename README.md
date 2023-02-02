@@ -29,7 +29,7 @@
 
  ### Приклади:
 --- 
-
+<pre><span>SCSS SASS</span></pre>
 <pre>@mixin reset-list {
   margin: 0;
   padding: 0;
@@ -52,4 +52,4 @@ nav ul {
   @include horizontal-list;
 }</pre>
   
-  <pre><span>SCSS SASS</span></pre> <pre><span>CSS</span></pre>
+   <pre><span>CSS</span></pre>

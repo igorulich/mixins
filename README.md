@@ -53,3 +53,13 @@ nav ul {
 }</pre>
   
    <pre><span>CSS</span></pre>
+  <pre>nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: 2em;
+}</pre>

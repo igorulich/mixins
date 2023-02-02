@@ -30,7 +30,7 @@
  ### Приклади:
 --- 
 
-<pre style="width: 100%,text-align: center, font-size: 19px,color:black;">@mixin flex-container() {
+<pre>@mixin flex-container() {
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;

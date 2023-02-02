@@ -31,14 +31,14 @@
 --- 
 <pre><div class="class="d-flex p-2 bd-highlight"">
   <div class="row">
-    <div class=" d-flex">
-      1-Column
+    <div class=" d-inline p-2 bg-primary text-white">
+      **1-Column
     </div>
-    <div class="d-flex">
-      2-Column
+    <div class="d-inline p-2 bg-dark text-white">
+      **2-Column
     </div>
-    <div class="d-flex">
-      3-Column
+    <div class="d-inline p-2 bg-primary text-white">
+      **3-Column
     </div>
   </div>
 </div></pre>

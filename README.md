@@ -53,7 +53,7 @@ nav ul {
   @include horizontal-list;
 }</pre>
   
-   <pre><span>CSS</span></pre>
+   <span>*CSS*</span>
    
   <pre>nav ul {
   margin: 0;

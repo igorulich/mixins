@@ -30,11 +30,10 @@
  ### Приклади:
 --- 
  <code>
-   
-     <font color="ff0000">@mixin</font> flex-container() {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-   </body>
+<pre>@mixin flex-container() {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}</pre>
+  
 </code>

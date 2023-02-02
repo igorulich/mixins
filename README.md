@@ -50,6 +50,6 @@
 
 nav ul {
   @include horizontal-list;
-}/pre>
+}</pre>
   
   <pre><span>@include flex-container()</span></pre>

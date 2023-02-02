@@ -29,10 +29,19 @@
 
  ### Приклади:
 --- 
-<pre><code class="d-flex container-fluid">
-<span >***SCSS***</span>
-<span>***SASS***</span>
-</code></pre>
+<pre><div class="container">
+  <div class="row">
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+  </div>
+</div>/pre>
   
 <pre>@mixin reset-list {
   margin: 0;

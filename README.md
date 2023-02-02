@@ -31,4 +31,5 @@
 --- 
  <code>
    <body bgcolor="ff0000" text="ffff00">
+   </body>
 </code>

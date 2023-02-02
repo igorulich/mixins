@@ -7,7 +7,7 @@
 + @mixin name(<arguments...>) { ... } ,
   ### Приклади:
 ---
-<pre>
+<pre bgcolor="#ffff00">
  @mixin btnreset() {
   background-color: transparent;
   border: none;

@@ -29,7 +29,7 @@
 
  ### Приклади:
 --- 
-<pre><div class="container">
+<pre><div class="d-flex container">
   <div class="row">
     <div class="col">
       Column

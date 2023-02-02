@@ -31,13 +31,13 @@
 --- 
 <pre><div class="container-fluid">
   <div class="row">
-    <div class="col">
+    <div class="col-md-4">
       Column
     </div>
-    <div class="col">
+    <div class="col-md-4">
       Column
     </div>
-    <div class="col">
+    <div class="col-md-4">
       Column
     </div>
   </div>

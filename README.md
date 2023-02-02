@@ -30,10 +30,26 @@
  ### Приклади:
 --- 
 
-<pre>@mixin flex-container() {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-}</pre>
+<pre>@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin horizontal-list {
+  @include reset-list;
+
+  li {
+    display: inline-block;
+    margin: {
+      left: -2px;
+      right: 2em;
+    }
+  }
+}
+
+nav ul {
+  @include horizontal-list;
+}/pre>
   
   <pre><span>@include flex-container()</span></pre>

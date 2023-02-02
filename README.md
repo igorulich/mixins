@@ -29,7 +29,19 @@
 
  ### Приклади:
 --- 
-      <p><abbr title="HyperText Markup Language" class="initialism">SCSS</abbr></p>
+    <pre><div class="container">
+  <div class="row">
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+  </div>
+</div></pre>
   
 <pre>@mixin reset-list {
   margin: 0;

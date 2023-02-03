@@ -164,3 +164,6 @@ $values: magenta, red, orange;
   border-radius: 50px;
 }</pre>
 *Функція повертає одне значення, якщо її аргумент дорівнює, **if()іtrue**  інше, якщо її аргумент дорівнює  **false**:
+ *створіть один файл SASS,SCSS із таким кодом* −
+ <pre>@debug if(true, 10px, 30px); // 10px
+@debug if(false, 10px, 30px); // 30px</pre>

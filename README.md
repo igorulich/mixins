@@ -244,3 +244,26 @@ pre span.stx-variable {
 @include order(150px, $form-selectors...);</pre>
 ## Блоки вмісту
 *Окрім прийому аргументів, міксин може приймати цілий блок стилів, відомий як блок вмісту . Міксин може оголосити, що він приймає блок вмісту, включивши **@contentat**-правило в своє тіло. Блок вмісту передається за допомогою фігурних дужок, як і будь-який інший блок у **Sass**, і вставляється замість **@content** правила.*
+### **Наприклад**,
+  *створіть один файл SASS,SCSS із таким кодом* −
+  <pre>@mixin hover {
+  &:not([disabled]):hover {
+    @content;
+  }
+}
+
+.button {
+  border: 1px solid black;
+  @include hover {
+    border-width: 2px;
+  }
+}</pre>
+ *Наведений вище код буде скомпільовано у файл **CSS**, як показано нижче* −
+ <pre>.button {
+  border: 1px solid black;
+}
+.button:not([disabled]):hover {
+  border-width: 2px;
+}
+</pre>
+ 

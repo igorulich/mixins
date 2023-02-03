@@ -116,3 +116,11 @@ $values: magenta, red, orange;
 </pre>
 ## Логічні значення
   *Логічні значення – це логічні значення **true** та **false**. Крім літеральних форм, булеві значення повертаються операторами рівності та відношення , а також багатьма вбудованими функціями, такими як **math.comparable()і map.has-key()***.
+ ### Приклади:
+ *створіть один файл SASS,SCSS із таким кодом* −
+  <pre>@use "sass:math";
+
+@debug 1px == 2px; // false
+@debug 1px == 1px; // true
+@debug 10px < 3px; // false
+@debug math.comparable(100px, 3in); // true</pre>

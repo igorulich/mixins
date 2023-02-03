@@ -169,3 +169,35 @@ $values: magenta, red, orange;
 @debug if(false, 10px, 30px); // 30px</pre>
 ## Прийняття довільних аргументів
 *Іноді корисно, щоб міксин міг приймати будь-яку кількість аргументів. Якщо останній аргумент в @mixinдекларації закінчується на ..., тоді всі додаткові аргументи цього міксину передаються цьому аргументу як список . Цей аргумент відомий як список аргументів* .
+### **Наприклад**,
+  *створіть один файл SASS,SCSS із таким кодом* −
+  <pre>@mixin order($height, $selectors...) {
+  @for $i from 0 to length($selectors) {
+    #{nth($selectors, $i + 1)} {
+      position: absolute;
+      height: $height;
+      margin-top: $i * $height;
+    }
+  }
+}
+
+@include order(150px, "input.name", "input.address", "input.zip");
+</pre>
+ *Наведений вище код буде скомпільовано у файл **CSS**, як показано нижче* −
+ <pre>input.name {
+  position: absolute;
+  height: 150px;
+  margin-top: 0px;
+}
+
+input.address {
+  position: absolute;
+  height: 150px;
+  margin-top: 150px;
+}
+
+input.zip {
+  position: absolute;
+  height: 150px;
+  margin-top: 300px;
+}</pre>

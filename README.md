@@ -81,3 +81,13 @@ $values: magenta, red, orange;
 .mail-icon {
   @include replace-text(url("/images/mail.svg"), 0);
 }</pre>
+*Наведений вище код буде скомпільовано у файл **CSS**, як показано нижче* −
+  <pre>.mail-icon {
+  text-indent: -99999em;
+  overflow: hidden;
+  text-align: left;
+  background-image: url("/images/mail.svg");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+</pre>

@@ -18,7 +18,7 @@
   }
 } 
   </pre> 
-  <span>@include **btnreset**();</span>
+  <span>@include **btnreset**();</span>,
    **або** 
 + @mixin name(<arguments...>) { ... } ,
  

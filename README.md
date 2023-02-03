@@ -58,3 +58,4 @@ $values: magenta, red, orange;
 .container {
    @include colors($values...);
 }</pre>
+*Наведений вище код буде скомпільовано у файл **CSS**, як показано нижче* −

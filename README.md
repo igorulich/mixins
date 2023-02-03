@@ -136,3 +136,30 @@ $values: magenta, red, orange;
 @debug not false; // true</pre>
 ## Використання логічних значень
 *Ви можете використовувати логічні значення, щоб вибрати, чи робити різні речі в Sass. Правило обчислює блок стилів, якщо його  **@ifаргументtrue*** :
+ *створіть один файл SASS,SCSS із таким кодом* −
+ <pre>@mixin avatar($size, $circle: false) {
+  width: $size;
+  height: $size;
+
+  @if $circle {
+    border-radius: $size / 2;
+  }
+}
+
+.square-av {
+  @include avatar(100px, $circle: false);
+}
+.circle-av {
+  @include avatar(100px, $circle: true);
+}</pre>
+  *Наведений вище код буде скомпільовано у файл **CSS**, як показано нижче* −
+  <pre>.square-av {
+  width: 100px;
+  height: 100px;
+}
+
+.circle-av {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}</pre>

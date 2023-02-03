@@ -163,3 +163,4 @@ $values: magenta, red, orange;
   height: 100px;
   border-radius: 50px;
 }</pre>
+*Функція повертає одне значення, якщо її аргумент дорівнює, **if()іtrue**  інше, якщо її аргумент дорівнює  **false**:

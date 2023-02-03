@@ -124,3 +124,13 @@ $values: magenta, red, orange;
 @debug 1px == 1px; // true
 @debug 10px < 3px; // false
 @debug math.comparable(100px, 3in); // true</pre>
+*Ви можете працювати з логічними значеннями за допомогою логічних операторів . Оператор and повертає , trueякщо обидві сторони є true, і orоператор повертає  , trueякщо будь - яка сторона є true. Оператор notповертає значення, протилежне одному логічному значенню*.
+*створіть один файл SASS,SCSS із таким кодом* −
+<pre>@debug true and true; // true
+@debug true and false; // false
+
+@debug true or false; // true
+@debug false or false; // false
+
+@debug not true; // false
+@debug not false; // true</pre>

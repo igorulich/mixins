@@ -223,3 +223,15 @@ input.zip {
   $comment: #800,
   $variable: #60b,
 )</pre>
+ *Наведений вище код буде скомпільовано у файл **CSS**, як показано нижче* −
+ <pre>pre span.stx-string {
+  color: #080;
+}
+
+pre span.stx-comment {
+  color: #800;
+}
+
+pre span.stx-variable {
+  color: #60b;
+}</pre>

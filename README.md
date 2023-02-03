@@ -203,3 +203,23 @@ input.zip {
 }</pre>
 ## Отримання довільних аргументів ключових слів
 *Списки аргументів також можна використовувати для отримання довільних ключових аргументів. Функція приймає список аргументів і повертає будь-які додаткові ключові слова, які були передані до міксину, як **meta.keywords()** карту від імен аргументів (не включаючи $) до значень цих аргументів.*
+### **Наприклад**,
+  *створіть один файл SASS,SCSS із таким кодом* −
+  <pre>@use "sass:meta";
+
+@mixin syntax-colors($args...) {
+  @debug meta.keywords($args);
+  // (string: #080, comment: #800, variable: #60b)
+
+  @each $name, $color in meta.keywords($args) {
+    pre span.stx-#{$name} {
+      color: $color;
+    }
+  }
+}
+
+@include syntax-colors(
+  $string: #080,
+  $comment: #800,
+  $variable: #60b,
+)</pre>

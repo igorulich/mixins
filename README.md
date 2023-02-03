@@ -59,3 +59,6 @@ $values: magenta, red, orange;
    @include colors($values...);
 }</pre>
 *Наведений вище код буде скомпільовано у файл **CSS**, як показано нижче* −
+  <pre>.container {
+   background-color: magenta;
+}</pre>

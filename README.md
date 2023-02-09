@@ -6,8 +6,8 @@
 *Міксини визначаються за допомогою **@mixinправила** at, яке записується:*
 + @mixin <name> { ... }
   ### ***Приклад:***
-* ---
-<pre>
+ ---
+* <pre>
  @mixin btnreset() {
   background-color: transparent;
   border: none;

@@ -7,7 +7,7 @@
 + @mixin <name> { ... }
   ### ***Приклад:***
  ---
-* <pre>
+<pre>
  @mixin btnreset() {
   background-color: transparent;
   border: none;

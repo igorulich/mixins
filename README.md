@@ -6,7 +6,7 @@
 *Міксини визначаються за допомогою **@mixinправила** at, яке записується:*
 + @mixin <name> { ... }
   ### ***Приклад:***
----
+* ---
 <pre>
  @mixin btnreset() {
   background-color: transparent;

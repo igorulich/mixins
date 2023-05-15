@@ -7,35 +7,35 @@
 
 @mixin _1200 {
   @media (max-width: 1200px) {
-    @content
+    @content;
      @include _1200 {}
   }
 }
 
 @mixin _992 {
   @media (max-width: 992px) {
-     @content
+     @content;
     @include _992 {}
   }
 }
 
 @mixin _768 {
   @media (max-width: 768px) {
-     @content
+     @content;
      @include _768 {}
   }
 }
 
 @mixin _480 {
   @media (max-width: 480px) {
-     @content
+     @content;
     @include _480 {}
   }
 }
 
 @mixin _320 {
   @media (max-width: 320px) {
-     @content
+     @content;
     @include _320 {}
   }
 }

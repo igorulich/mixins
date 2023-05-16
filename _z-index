@@ -11,7 +11,7 @@
 
 $z-indexes: ("site-header");
 
-// .site-header {
+//приклад .site-header {
 
 //   z-index: z('site-header');
 

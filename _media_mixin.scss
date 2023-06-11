@@ -47,5 +47,7 @@
 //font-size: calc(9px + 0.625vw);
 //   line-height: calc(11px + 4.135417vh);
 //  word-spacing: calc(0.1px + 0.015625vw);
-
+//мінімальний розмір від вікна браузера використовуется для адаптивних гридів 
+//grid-template-columns: repeat(4,20vmin);
+// grid-template-rows: repeat(4,20vmin);
  
